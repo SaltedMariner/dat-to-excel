@@ -1,0 +1,16 @@
+# Core data processing
+pandas>=3.0.2
+numpy>=2.4.4
+
+# Encoding detection (convert_dat_to_excel.py)
+chardet>=7.4.3
+
+# DBF file reader (convert_dbf_to_excel.py)
+dbfread>=2.0.7
+
+# Excel I/O engines (used by pandas.ExcelWriter / to_excel)
+openpyxl>=3.1.5
+XlsxWriter>=3.2.0
+
+# Optional: progress bars in convert_dat_to_excel.py (imported in a try/except)
+tqdm>=4.67.1
